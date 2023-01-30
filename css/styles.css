@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -62,6 +63,7 @@ main {
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
+
 .titulo {
     color: white;
     padding: 20px;
@@ -75,6 +77,36 @@ main {
     background-image: url(../img/cafe-molido.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.img-smoot{
+    background-color: #FBAB7E;
+    background-image: url(../img/cafe-taza.jpg);
+    background-size: cover;
+    background-position: center;
+    height:300px;
+}
+
+.titulo-smoot{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+
+.titulo-smoot p{
+    font-size: 15px;
+}
+
+.titulo-smoot h3{
+    text-align: center;
+}
+
+.titulo-smoot a{
+    font-size: 15px;
+    color: #FBAB7E;
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
 }
 
 .buttonConocer {
@@ -119,18 +151,6 @@ footer i {
     color: white;
 }
 
-#informacion {
-    color: rgb(0, 0, 0);
-    width: 30%;
-    float: left;
-    background-color: rgba(221, 110, 59, 0.342);
-    padding: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    margin: 170px;
-    background-size: contain;
-    border: double 2px white;
-}
 
 form {
     border-radius: 6px;
@@ -268,7 +288,6 @@ textarea {
     }
 
     .imagen1 {
-
         margin: 0px;
     }
 
