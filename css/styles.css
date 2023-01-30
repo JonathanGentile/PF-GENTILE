@@ -6,116 +6,120 @@
 html {
     scroll-behavior: smooth;
 }
-header {
-    height: 80px;
-    width: 100%;
-    background-color: rgb(228, 86, 86);
-    font-size: 22px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: capitalize;
-    padding: 20px;   
+
+.logo {
+    padding: 5px;
+    margin: 15px;
 }
-.logo{
-    font-size: 30px;
-    text-transform: capitalize;
-    float: left;
-    font-weight: bold;
-    color: white;
-    border: 1px solid;   
-}
-.logo span{
+
+span {
     color: yellow;
 }
-.barra{
-    float: right;
-}
-.barra ul li{
-    list-style: none;
-    display: inline-block;
-}
-.barra a{
+
+.navbar {
+    background-color: rgb(228, 86, 86);
     text-decoration: none;
     color: #fff;
 }
-.barra a:hover{
-    color: yellow;
-    text-decoration: underline;
-}
-main{
+
+main {
     height: 100vh;
     width: 100%;
-    background-color: #333;
-    background-image: url(../img/cafe-background.jpg);
+    background-color: #FBAB7E;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(0deg, #FBAB7E 0%, #F7CE68 100%);
+
+
+}
+
+.jumbotron {
+    color: white;
+    text-align: center;
+    height: 400px;
+    background-color: rgb(117, 63, 63);
+    background-image: url(../img/jumbotron.jpg);
+    background-position: center;
+    background-position-y: 13%;
     background-size: cover;
-    background-position: right;
+    margin-bottom: 0;
+    border-top: 2px solid black;
+    border-radius: 0;
 }
-.call{
-    display: inline-block;
-    color: white;
-    width: 50%;
-    float: left;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.hJumbotron {
+    font-family: 'Urbanist', sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: underline 5px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.jumbotron p {
+    text-align: center;
     font-size: 30px;
-    margin: 170px;
-    background-size: contain;
+    font-family: 'Urbanist', sans-serif;
+    color: rgb(95, 95, 95);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
-p{
-    text-align: center;
-}
-h1{
-    text-align: center;
-    color: rgb(228, 86, 86);
-    margin-bottom: 20px;
-}
-.call p{
-    margin-bottom: 30px;
-}
-.call a{
-    font-size: 20px;
-    background-color: rgb(228, 86, 86);
+
+.titulo {
     color: white;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 20px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    background-color: rgb(228, 86, 86);
+    border-bottom: 2px solid black;
 }
-.call a:hover{
-    background-color: #333;
-    border: 2px solid rgb(228, 86, 86);
+
+.imagen1 {
+    padding: 250px;
+    background-image: url(../img/cafe-molido.jpg);
+    background-position: center;
+    background-size: cover;
 }
-footer{
+
+.buttonConocer {
+    background-color: white;
+}
+
+footer {
     text-align: center;
     font-size: 20px;
     background-color: #000;
     color: white;
     padding: 20px;
     font-family: 'Oswald', sans-serif;
-    
+
 }
-footer p{
+
+footer p {
     margin-bottom: 15px;
 }
-footer i{
+
+footer i {
     font-size: 50px;
     letter-spacing: 20px;
     color: rgb(228, 86, 86);
 }
-.subir{
+
+.subir {
     height: 40px;
     width: 40px;
-    background-color:  rgb(228, 86, 86);
+    background-color: rgb(228, 86, 86);
     color: rgb(255, 251, 0);
     position: fixed;
     right: 40px;
     bottom: 40px;
     font-size: 30px;
-    text-align: center ;
+    text-align: center;
     line-height: 40px;
     box-shadow: 0 0 5px #fff;
 }
-#informacion{
+
+.subir:hover {
+    color: white;
+}
+
+#informacion {
     color: rgb(0, 0, 0);
     width: 30%;
     float: left;
@@ -127,6 +131,7 @@ footer i{
     background-size: contain;
     border: double 2px white;
 }
+
 form {
     border-radius: 6px;
     width: 300px;
@@ -136,22 +141,28 @@ form {
     margin: 0 auto;
     background-color: white;
 }
-input, textarea{
+
+input,
+textarea {
     border: 0;
     outline: none;
     width: 280px;
 }
-.field{
+
+.field {
     border: solid 1px #ccc;
     padding: 5px;
 }
-.field:focus{
+
+.field:focus {
     border-color: rgb(228, 86, 86);
 }
-.center-content{
+
+.center-content {
     text-align: center;
 }
-.btn{
+
+.btn {
     border-radius: 6px;
     display: inline-block;
     padding: 15px 10px;
@@ -159,34 +170,35 @@ input, textarea{
     text-shadow: 0 1px 0 rgb(0, 0, 0);
     box-shadow: 0 1px 1px black;
 }
-.btn-green{
+
+.btn-green {
     color: rgb(0, 0, 0);
     background-color: rgb(228, 86, 86);
 }
-.btn-green:hover{
+
+.btn-green:hover {
     background-color: rgb(168, 98, 98);
 }
-.btn-green:active{
+
+.btn-green:active {
     background-color: rgb(100, 76, 76);
 }
-#formulario{
-    font-size: 40px;
+
+#formulario {
+    text-align: center;
+    font-size: 30px;
     color: yellow;
     text-decoration: underline;
     font-family: 'Oswald', sans-serif;
 }
-#inicioSesion{
-    font-size: 60px;
-    color: yellow;
-    text-decoration: underline;
-    font-family: 'Oswald', sans-serif ;
-}
-#nuestrosServicios{
+
+#nuestrosServicios {
     font-family: 'Righteous', cursive;
     color: rgb(172, 167, 167);
     text-decoration: underline;
 }
-.galeria{
+
+.galeria {
     height: auto;
     width: 100%;
     background-color: rgba(134, 85, 30, 0.37);
@@ -196,55 +208,84 @@ input, textarea{
     grid-gap: 20px;
     padding: 20px;
 }
-.item{
-    border: 3px solid black;
-    background-position: cover;
+
+.item {
+    border: 2px solid black;
+    background-size: cover;
     background-position: center;
-}
-.item1{
-    background-image: url(../img/cafe\ au\ lait.webp);
-    
-}
-.item2{
-    background-image: url(../img/cappuccino.webp); 
-    
-}
-.item3{
-    background-image: url(../img/cortado.webp);
-    
-}
-.item4{
-    background-image: url(../img/espresso.webp);
-   
-}
-.item5{
-    background-image: url(../img/late\ machiato.webp);
-    
-}
-.item6{
-    background-image: url(../img/lungo.webp);
-    
-}
-.item7{
-    background-image: url(../img/carmel.webp);
-    
-}
-.item8{
-    background-image: url(../img/skinny.png);
-    
+
 }
 
-@media only screen and (min-width: 480px){
-    .galeria{
-        grid-template-columns: 1fr 1fr;
+.item1 {
+    background-image: url(../img/cafe\ au\ lait.webp);
+}
+
+.item2 {
+    background-image: url(../img/cappuccino.webp);
+
+}
+
+.item3 {
+    background-image: url(../img/cortado.webp);
+
+}
+
+.item4 {
+    background-image: url(../img/espresso.webp);
+
+}
+
+.item5 {
+    background-image: url(../img/late\ machiato.webp);
+
+}
+
+.item6 {
+    background-image: url(../img/lungo.webp);
+
+}
+
+.item7 {
+    background-image: url(../img/carmel.webp);
+
+}
+
+.item8 {
+    background-image: url(../img/skinny.png);
+
+}
+
+@media only screen and (min-width: 576px) {
+    .galeria {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: repeat(4, 200px);
     }
+
+    .titulo {
+        text-transform: capitalize padding: 2px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .imagen1 {
+
+        margin: 0px;
+    }
+
+    .jumbotron h1 {
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    .jumbotron p {
+        font-size: 20px;
+    }
 }
 
-@media only screen and (min-width: 768px) {
-    .galeria{
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .galeria {
         grid-template-columns: 1fr 1fr 1fr;
-        
+
     }
-    
+
 }
