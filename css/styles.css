@@ -300,7 +300,7 @@ textarea {
     }
 
     .titulo {
-        text-transform: capitalize padding: 2px;
+        text-transform: capitalize padding 2px;
         margin: 0px;
         text-align: center;
     }
