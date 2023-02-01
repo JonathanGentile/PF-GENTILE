@@ -31,6 +31,16 @@ main {
     background-image: linear-gradient(0deg, #FBAB7E 0%, #F7CE68 100%);
 }
 
+.main1 {
+    height: 80vh;
+    width: 100%;
+    background-color: #FBAB7E;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(0deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+
+
 .jumbotron {
     color: white;
     text-align: center;
@@ -57,7 +67,7 @@ main {
     text-align: center;
     font-size: 30px;
     font-family: 'Urbanist', sans-serif;
-    color: rgb(95, 95, 95);
+    color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
@@ -77,32 +87,33 @@ main {
     background-size: cover;
 }
 
-.image{
+.image {
     background-color: #FBAB7E;
     background-image: url(../img/cafe-taza.jpg);
     background-size: cover;
     background-position: center;
-    height:300px;
+    height: 300px;
 }
 
-.titulo{
-    background-color: gray;
+.titulo {
+    background-color: rgb(59, 59, 59);
     color: white;
     padding: 20px;
 }
 
-.titulo p{
+.titulo p {
     font-size: 15px;
+    text-align: center;
 }
 
-.titulo h3{
+.titulo h3 {
     text-align: center;
     text-decoration: underline 3px;
     text-transform: uppercase;
     color: orange;
 }
 
-.titulo a{
+.titulo a {
     font-size: 15px;
     color: #FBAB7E;
     background-color: white;
@@ -110,11 +121,11 @@ main {
     text-decoration: none;
 }
 
-.img2{
+.img2 {
     background-image: url(../img/taza-pochoclo.jpg);
 }
 
-.img3{
+.img3 {
     background-image: url(../img/cafe-canela.jpg);
 }
 
@@ -223,32 +234,41 @@ textarea {
     text-decoration: underline;
 }
 
-.card-deck{
-    padding: 40px;
+.card-deck {
+    margin: auto;
+    padding: 10px;
 }
 
-.card{
+.card {
     border: 1px solid gray;
 }
 
-.card-img-top{
+.card-img-top {
     width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    transition: all 300ms;
+
 }
 
-.card-title{
+.card-img-top:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.card-title {
     text-align: center;
     color: #FBAB7E;
     text-transform: uppercase;
     text-shadow: 1px 2px 1px rgb(0, 0, 0);
     border-bottom: solid 2px;
     border-bottom-color: rgb(209, 154, 52);
-    
+
 }
 
-.card-text{
+.card-text {
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 15px;
@@ -256,10 +276,27 @@ textarea {
 }
 
 
-@media only screen and (min-width: 576px) {
-    .galeria {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: repeat(4, 200px);
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+    .jumbotron h1{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .jumbotron p{
+        font-size: 20px;
+        color: white;
+    }
+
+    .titulo {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1003px) {
+    .card-deck {
+        display: block;
+        margin: 0px;
     }
 
     .titulo {
@@ -280,12 +317,8 @@ textarea {
     .jumbotron p {
         font-size: 20px;
     }
-}
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .galeria {
-        grid-template-columns: 1fr 1fr 1fr;
-
+    .img1 {
+        height: auto;
     }
-
 }
