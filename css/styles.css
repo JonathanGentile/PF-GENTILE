@@ -81,6 +81,7 @@ main {
 }
 
 .imagen1 {
+    margin: auto;
     padding: 250px;
     background-image: url(../img/cafe-molido.jpg);
     background-position: center;
@@ -276,7 +277,7 @@ textarea {
 }
 
 
-@media only screen and (min-width: 480px) and (max-width: 575px) {
+@media only screen and (min-width: 420px) and (max-width: 575px) {
     .jumbotron h1{
         color: rgb(255, 255, 255);
         font-size: 20px;
