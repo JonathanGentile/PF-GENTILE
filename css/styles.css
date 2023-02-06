@@ -276,14 +276,15 @@ textarea {
 }
 
 
-@media only screen and (min-width: 420px) and (max-width: 575px) {
-    .jumbotron h1{
+@media only screen and (min-width: 376px) and (max-width: 575px) {
+
+    .jumbotron h1 {
         color: rgb(255, 255, 255);
         font-size: 20px;
         text-align: center;
     }
 
-    .jumbotron p{
+    .jumbotron p {
         font-size: 20px;
         color: white;
     }
@@ -291,8 +292,10 @@ textarea {
     .titulo {
         text-align: center;
     }
+
     .imagen1 {
-        padding: auto;
+        margin: auto;
+        padding: 200px;
     }
 }
 
