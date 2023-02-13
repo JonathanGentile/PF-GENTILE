@@ -1,20 +1,28 @@
+//paleta de colores
 $color1: rgb(228, 86, 86);
 $color2: rgb(168, 98, 98);
 $color3: rgb(100, 76, 76);
 $color4: yellow;
 $color5: #999;
 $color6: black;
+$color7: white;
 
+//fuentes
 $font1: 'Oswald', sans-serif;
 
-form {
+//mixin
+@mixin border-radius{
     border-radius: 6px;
-    width: 300px;
     color: $color5;
+    background-color: $color7;
     padding: 10px;
+}
+
+form {
+    width: 300px;
     font-size: 16px;
     margin: 0 auto;
-    background-color: white;
+    @include border-radius;
 }
 
 input,
@@ -59,10 +67,14 @@ textarea {
     background-color: $color3;
 }
 
-#formulario {
-    text-align: center;
-    font-size: 30px;
-    color: $color6;
-    text-decoration: underline 3px;
-    font-family: $font1;
+.formularioInicio {
+        font-family: $font1;
+        font-size: 40px;
+        color: $color7;
+        text-shadow: 1px 2px 2px $color6;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline 3px;
+    
+    
 }

@@ -1,10 +1,15 @@
+//paleta de colores
 $color1: rgb(228, 86, 86);
 $color2: #FBAB7E;
 $color3: rgb(117, 63, 63);
 $color4: rgb(255, 255, 255);
 $color5: #F7CE68;
 $color6: #999;
+$color7: yellow;
+$color8: black;
+$color9: rgb(59, 59, 59);
 
+//fuentes
 $font1: 'Urbanist', sans-serif;
 $font2: 'Oswald', sans-serif;
 $font3: 'Righteous', cursive;
@@ -26,13 +31,13 @@ html {
 }
 
 span {
-    color: yellow;
+    color: $color7;
 }
 
 .navbar {
     background-color: $color1;
     text-decoration: none;
-    color: #fff;
+    color: $color4;
 }
 
 main {
@@ -54,7 +59,7 @@ main {
 
 
 .jumbotron {
-    color: white;
+    color: $color4;
     text-align: center;
     height: 400px;
     background-color: $color3;
@@ -63,7 +68,7 @@ main {
     background-position-y: 13%;
     background-size: cover;
     margin-bottom: 0;
-    border-top: 2px solid black;
+    border-top: 2px solid $color8;
     border-radius: 0;
 }
 
@@ -72,7 +77,7 @@ main {
     color: $color4;
     text-decoration: underline 5px;
     text-transform: uppercase;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px $color8;
 }
 
 .jumbotron p {
@@ -80,7 +85,7 @@ main {
     font-size: 30px;
     font-family: $font1;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px $color8;
 }
 
 
@@ -89,7 +94,7 @@ main {
     padding: 20px;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     background-color: $color1;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid $color8;
 }
 
 .novedades {
@@ -97,7 +102,7 @@ main {
     text-transform: uppercase;
     text-decoration: underline 3px;
     color: $color4;
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 2px 2px 3px $color8;
     padding: 20px;
     margin: 0 auto;
 }
@@ -122,7 +127,7 @@ main {
 }
 
 .titulo {
-    background-color: rgb(59, 59, 59);
+    background-color: $color9;
     color: white;
     padding: 20px;
 }

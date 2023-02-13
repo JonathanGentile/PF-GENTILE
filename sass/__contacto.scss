@@ -1,9 +1,13 @@
+//paleta de colores
 $color1: white;
 $color2: black;
 
-$font1: 'Oswald', sans-serif;
+//fuentes
+$font1: 'Oswald',
+sans-serif;
 
-.preguntah{
+//mixin
+@mixin titulo-formularios {
     font-family: $font1;
     font-size: 40px;
     color: $color1;
@@ -13,7 +17,12 @@ $font1: 'Oswald', sans-serif;
     text-decoration: underline 3px;
 }
 
-.accesos{
+.preguntah {
+    @include titulo-formularios;
+}
+
+
+.accesos {
     font-size: 15px;
     text-align: center;
 }
