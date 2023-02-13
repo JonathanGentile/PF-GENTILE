@@ -183,7 +183,7 @@ main {
   color: #999;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 575px) {
+@media only screen and (min-width: 370px) and (max-width: 575px) {
   .jumbotron h1 {
     color: rgb(255, 255, 255);
     font-size: 20px;
