@@ -92,10 +92,18 @@ main {
 }
 
 .imagen1 {
+<<<<<<< HEAD
   padding: 250px;
   background-image: url(../img/cafe-molido.jpg);
   background-position: center;
   background-size: cover;
+=======
+    margin: auto;
+    padding: 250px;
+    background-image: url(../img/cafe-molido.jpg);
+    background-position: center;
+    background-size: cover;
+>>>>>>> 59ce5fb690dea4f649cc2ad85253defcf96598a2
 }
 
 .image {
@@ -319,10 +327,35 @@ footer i {
   text-decoration: underline 3px black;
 }
 
+<<<<<<< HEAD
 .direccion {
   color: black;
   text-transform: uppercase;
   font-size: 16px;
+=======
+
+@media only screen and (min-width: 376px) and (max-width: 575px) {
+
+    .jumbotron h1 {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .jumbotron p {
+        font-size: 20px;
+        color: white;
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
+    .imagen1 {
+        margin: auto;
+        padding: 200px;
+    }
+>>>>>>> 59ce5fb690dea4f649cc2ad85253defcf96598a2
 }
 
 .subir {
