@@ -1,0 +1,68 @@
+$color1: rgb(228, 86, 86);
+$color2: rgb(168, 98, 98);
+$color3: rgb(100, 76, 76);
+$color4: yellow;
+$color5: #999;
+$color6: black;
+
+$font1: 'Oswald', sans-serif;
+
+form {
+    border-radius: 6px;
+    width: 300px;
+    color: $color5;
+    padding: 10px;
+    font-size: 16px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+input,
+textarea {
+    border: 0;
+    outline: none;
+    width: 280px;
+}
+
+.field {
+    border: solid 1px #ccc;
+    padding: 5px;
+}
+
+.field:focus {
+    border-color: $color1;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 6px;
+    display: inline-block;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgb(0, 0, 0);
+    box-shadow: 0 1px 1px black;
+}
+
+.btn-green {
+    color: rgb(0, 0, 0);
+    background-color: $color1;
+}
+
+.btn-green:hover {
+    background-color: $color2;
+}
+
+.btn-green:active {
+    background-color: $color3;
+}
+
+#formulario {
+    text-align: center;
+    font-size: 30px;
+    color: $color6;
+    text-decoration: underline 3px;
+    font-family: $font1;
+}
