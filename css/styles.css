@@ -92,18 +92,15 @@ main {
 }
 
 .imagen1 {
-<<<<<<< HEAD
   padding: 250px;
   background-image: url(../img/cafe-molido.jpg);
   background-position: center;
   background-size: cover;
-=======
-    margin: auto;
-    padding: 250px;
-    background-image: url(../img/cafe-molido.jpg);
-    background-position: center;
-    background-size: cover;
->>>>>>> 59ce5fb690dea4f649cc2ad85253defcf96598a2
+  margin: auto;
+  padding: 250px;
+  background-image: url(../img/cafe-molido.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .image {
@@ -197,38 +194,47 @@ main {
     font-size: 20px;
     text-align: center;
   }
+
   .jumbotron p {
     font-size: 20px;
     color: white;
   }
+
   .titulo {
     text-align: center;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 1003px) {
   .card-deck {
     display: block;
     margin: 0px;
   }
+
   .titulo {
     text-transform: capitalize padding 2px;
     margin: 0px;
     text-align: center;
   }
+
   .imagen1 {
     margin: 0px;
   }
+
   .jumbotron h1 {
     font-size: 30px;
     padding-bottom: 50px;
   }
+
   .jumbotron p {
     font-size: 20px;
   }
+
   .img1 {
     height: auto;
   }
 }
+
 form {
   border-radius: 6px;
   width: 300px;
@@ -327,35 +333,33 @@ footer i {
   text-decoration: underline 3px black;
 }
 
-<<<<<<< HEAD
 .direccion {
   color: black;
   text-transform: uppercase;
   font-size: 16px;
-=======
+}
 
 @media only screen and (min-width: 376px) and (max-width: 575px) {
 
-    .jumbotron h1 {
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-        text-align: center;
-    }
+  .jumbotron h1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+  }
 
-    .jumbotron p {
-        font-size: 20px;
-        color: white;
-    }
+  .jumbotron p {
+    font-size: 20px;
+    color: white;
+  }
 
-    .titulo {
-        text-align: center;
-    }
+  .titulo {
+    text-align: center;
+  }
 
-    .imagen1 {
-        margin: auto;
-        padding: 200px;
-    }
->>>>>>> 59ce5fb690dea4f649cc2ad85253defcf96598a2
+  .imagen1 {
+    margin: auto;
+    padding: 200px;
+  }
 }
 
 .subir {
