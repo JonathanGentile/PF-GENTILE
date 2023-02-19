@@ -111,56 +111,6 @@ main {
     font-size: 20px;
 }
 
-.imagen1 {
-    padding: 250px;
-    background-image: url(../img/cafe-molido.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.image {
-    background-color: #FBAB7E;
-    background-image: url(../img/cafe-taza.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-}
-
-.titulo {
-    background-color: $color9;
-    color: white;
-    padding: 20px;
-}
-
-.titulo p {
-    font-size: 15px;
-    text-align: center;
-}
-
-.titulo h3 {
-    text-align: center;
-    text-decoration: underline 3px;
-    text-transform: uppercase;
-    color: orange;
-}
-
-.titulo a {
-    font-size: 15px;
-    color: #FBAB7E;
-    background-color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-
-.img2 {
-    background-image: url(../img/taza-pochoclo.jpg);
-}
-
-.img3 {
-    background-image: url(../img/cafe-canela.jpg);
-}
-
-
 .card-deck {
     margin: auto;
     padding: 10px;
@@ -259,3 +209,4 @@ main {
 @import "__formularios.scss";
 @import "__footer.scss";
 @import "__contacto.scss";
+@import "__nosotros.scss";
